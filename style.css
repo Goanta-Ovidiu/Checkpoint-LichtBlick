@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap");
+
+/* General Style */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato";
+}
+p,
+li,
+a,
+button {
+  font-family: "Roboto";
+}
+
+/* Header Section */
+#header {
+  height: 20%;
+  margin: 1rem;
+}
+
+.logo {
+  display: block;
+  width: 35%;
+  height: 20%;
+}
+.nav {
+  width: 100%;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.5rem;
+}
+
+/* Top-Section */
+.top-image {
+  width: 100%;
+  display: block;
+}
+.top-section {
+  padding: 1rem;
+  background-color: lightgray;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
