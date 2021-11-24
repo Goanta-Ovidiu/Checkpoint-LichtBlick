@@ -26,6 +26,7 @@ li,
 a,
 button {
   font-family: "Roboto";
+  text-decoration: none;
 }
 
 /* Header Section */
@@ -62,4 +63,116 @@ button {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 3rem;
+}
+
+/* Pink and Blue Section*/
+.middle-section {
+  background-color: pink;
+  text-align: center;
+  margin: 4rem 0;
+  padding: 4rem 2rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.middle-button {
+  background-color: pink;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 2px solid black;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.bottom-section {
+  background-color: lightsteelblue;
+  text-align: center;
+  margin: 4rem 0;
+  padding: 4rem 2rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.bottom-button {
+  background-color: lightsteelblue;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 2px solid black;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* Card Section */
+
+#cards {
+  margin: 2rem;
+}
+.card-header {
+  text-align: center;
+  line-height: 1.5;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.card-left {
+  border: 5px solid gray;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 2rem 1rem;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  z-index: 99;
+}
+
+.img-card-left {
+  width: 105%;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+  left: -5%;
+  z-index: -99;
+}
+.card-right {
+  border: 5px solid gray;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 2rem 1rem;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  z-index: 99;
+}
+
+.img-card-right {
+  width: 105%;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+  left: -5%;
+  z-index: -99;
+}
+
+.mobilität-link,
+.podcast-link {
+  color: black;
+  font-weight: bold;
+  border-bottom: 3px solid black;
+}
+
+/* Footer Section*/
+
+#footer {
+  width: 100%;
+  background-color: black;
+  color: gray;
+  padding: 4rem;
+  text-align: center;
+  display: inline-block;
+}
+
+.footer-link {
+  display: block;
+  color: white;
+  text-decoration: underline;
+  line-height: 4;
+}
+
+#footer p {
+  margin-top: 4rem;
 }
